@@ -24,3 +24,7 @@ test('" " to " " ', () =>
 test('"reverse" to "esrever" ', () =>
   expect(reverseString("reverse")).toBe("esrever")
 )
+
+test('"this string is reversed" to "desrever si gnirts siht" ', () =>
+  expect(reverseString("this string is reversed")).toBe("desrever si gnirts siht")
+)
