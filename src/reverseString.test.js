@@ -12,7 +12,6 @@ test('numeric output', () =>
   expect(reverseString(90)).toBe("09")
 )
 
-
 test('"" to "" ', () =>
   expect(reverseString("")).toBe("")
 )
