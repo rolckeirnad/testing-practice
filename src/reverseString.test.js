@@ -5,7 +5,7 @@ test('empty call', () =>
 )
 
 test('output is string', () => {
-  expect(typeof capitalize(9)).toBe("string");
+  expect(typeof reverseString(9)).toBe("string");
 })
 
 test('numeric output', () =>
@@ -22,5 +22,5 @@ test('" " to " " ', () =>
 )
 
 test('"reverse" to "esrever" ', () =>
-  expect(reverseString("reverse")).toBe("")
+  expect(reverseString("reverse")).toBe("esrever")
 )
